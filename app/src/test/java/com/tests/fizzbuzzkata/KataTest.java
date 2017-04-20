@@ -43,9 +43,9 @@ public class KataTest {
         assertEquals("Buzz", result);
     }
     @Test
-    public void verify_number_mod3_and_mod5_should_return_fizz() throws Exception {
+    public void verify_number_mod3_and_mod5_should_return_fizzbuzz() throws Exception {
         String result = kata.fizzBuzz(15);
-        assertEquals("Buzz", result);
+        assertEquals("FizzBuzz", result);
     }
 
     @Test
